@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Minecraft Player Tier List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Minecraft Player Tier List</h1>
+  </header>
+
+  <main class="container">
+    <div id="message" class="message">Načítám hráče…</div>
+
+    <section id="tier-S" class="tier-section">
+      <h2>Tier S</h2>
+      <div class="players"></div>
+    </section>
+
+    <section id="tier-A" class="tier-section">
+      <h2>Tier A</h2>
+      <div class="players"></div>
+    </section>
+
+    <section id="tier-B" class="tier-section">
+      <h2>Tier B</h2>
+      <div class="players"></div>
+    </section>
+
+    <section id="tier-C" class="tier-section">
+      <h2>Tier C</h2>
+      <div class="players"></div>
+    </section>
+
+    <section id="tier-D" class="tier-section">
+      <h2>Tier D</h2>
+      <div class="players"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Hráči se načítají z <code>players.json</code>. Pro načtení použijte jednoduchý lokální server (např. <code>python3 -m http.server 3000</code> nebo <code>npm start</code> po instalaci).</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

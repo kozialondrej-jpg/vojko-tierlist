@@ -1,0 +1,14 @@
+{
+  "name": "minecraft-tierlist",
+  "version": "1.0.0",
+  "description": "Simple Minecraft player tier list",
+  "scripts": {
+    "start": "live-server --port=3000 --entry-file=index.html",
+    "serve": "python3 -m http.server 3000",
+    "apply-wins": "node scripts/apply_match_wins.js"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "license": "MIT"
+}
